@@ -7,6 +7,15 @@
    <groupId>com.scm.project</groupId>
    <artifactId>scm</artifactId>
    <version>1.0</version>
+   
+   <dependencies>
+      <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-jaxrs</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+   </dependencies>
+   
    <profiles>
    <profile>
             <id>maven2</id>
